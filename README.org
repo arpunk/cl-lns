@@ -1,0 +1,18 @@
+* cl-lns
+  Basic interface for [[http://ln-s.net][ln-s.net]] in Common Lisp.
+
+** Basic usage
+   #+BEGIN_SRC lisp
+   (ql:quickload :cl-lns)
+
+   (cl-lns:lnsify "http://google.com")
+   #+END_SRC
+
+* Author
+  - Ricardo Lanziano (arpunk@cryptolab.net)
+
+* Copyright
+  Copyright (c) 2014 Ricardo Lanziano (arpunk@cryptolab.net)
+
+* License
+  Licensed under the GPLv3 License. See LICENSE for more information.
